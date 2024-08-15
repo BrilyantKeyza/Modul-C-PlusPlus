@@ -69,32 +69,63 @@ Untuk memahami prosesnya, mari kita instal Mingw-w64 melalui [MSYS2](https://www
 Anda akan melihat keluaran yang menyatakan versi GCC, g++, dan GDB yang telah Anda instal. Jika tidak demikian, pastikan entri PATH Anda cocok dengan lokasi biner Mingw-w64 tempat alat penyusun berada.
 
 
+
 ### Instal MSVC di Windows
 
-1.  Instal [Visual Studio Code](https://code.visualstudio.com/download) .
-    
-2.  Instal [ekstensi C/C++ untuk VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) . Anda dapat menginstal ekstensi C/C++ dengan mencari 'c++' di tampilan Ekstensi ( Ctrl+Shift+X ).
-![enter image description here](https://code.visualstudio.com/assets/docs/cpp/cpp/cpp-extension.png)
+  
+
+1. Instal [Visual Studio Code](https://code.visualstudio.com/download) .
+
+2. Instal [ekstensi C/C++ untuk VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) . Anda dapat menginstal ekstensi C/C++ dengan mencari 'c++' di tampilan Ekstensi ( Ctrl+Shift+X ).
+
+    ![enter image description here](https://code.visualstudio.com/assets/docs/cpp/cpp/cpp-extension.png)
+
+  
 
 3. Instal perangkat kompiler Microsoft Visual C++ (MSVC).
 
+  
+
 	Jika Anda memiliki Visual Studio versi terbaru, buka Visual Studio Installer dari menu Start Windows dan verifikasi bahwa beban kerja C++ telah dicentang. Jika belum terinstal, centang kotak dan pilih tombol **Modify** di installer.
 
+  
+
 	Anda juga dapat menginstal **pengembangan Desktop dengan beban kerja C++** tanpa instalasi IDE Visual Studio secara penuh. Dari halaman [Unduhan](https://visualstudio.microsoft.com/downloads/#remote-tools-for-visual-studio-2022) Visual Studio , gulir ke bawah hingga Anda melihat **Alat untuk Visual Studio** di bawah bagian **Semua Unduhan** dan pilih unduhan untuk **Alat Bangun untuk Visual Studio 2022** .
-![enter image description here](https://code.visualstudio.com/assets/docs/cpp/msvc/build-tools-for-vs-2022.png)
-Ini akan meluncurkan Visual Studio Installer, yang akan memunculkan dialog yang menunjukkan beban kerja Visual Studio Build Tools yang tersedia. Centang beban kerja **Desktop development with C++** dan pilih **Install** .
-![enter image description here](https://code.visualstudio.com/assets/docs/cpp/msvc/desktop_development_with_cpp-2022.png)
+
+  
+	
+	![enter image description here](https://code.visualstudio.com/assets/docs/cpp/msvc/build-tools-for-vs-2022.png)
+
+  
+
+	Ini akan meluncurkan Visual Studio Installer, yang akan memunculkan dialog yang menunjukkan beban kerja Visual Studio Build Tools yang tersedia. Centang beban kerja **Desktop development with C++** dan pilih **Install** .
+
+  
+
+	![enter image description here](https://code.visualstudio.com/assets/docs/cpp/msvc/desktop_development_with_cpp-2022.png)
+
 #### Periksa instalasi Microsoft Visual C++ Anda
+
+  
 
 Untuk menggunakan MSVC dari baris perintah atau VS Code, Anda harus menjalankannya dari **Developer Command Prompt untuk Visual Studio** . Shell biasa seperti PowerShell, Bash, atau command prompt Windows tidak memiliki variabel lingkungan jalur yang diperlukan.
 
+  
+
 Untuk membuka Developer Command Prompt untuk VS, mulailah mengetik 'developer' di menu Start Windows, dan Anda akan melihatnya muncul di daftar saran. Nama persisnya bergantung pada versi Visual Studio atau Visual Studio Build Tools yang telah Anda instal. Pilih item tersebut untuk membuka prompt.
+
+  
 
 ![enter image description here](https://code.visualstudio.com/assets/docs/cpp/msvc/developer-cmd-prompt-menu.png)
 
+  
+
 Anda dapat menguji apakah Anda telah menginstal kompiler C++ `cl.exe`dengan benar dengan mengetik 'cl' dan Anda akan melihat pesan hak cipta dengan versi dan deskripsi penggunaan dasar.
 
+  
+
 ![enter image description here](https://code.visualstudio.com/assets/docs/cpp/msvc/check-cl-exe.png)
+
 Jika Prompt Perintah Pengembang menggunakan lokasi BuildTools sebagai direktori awal (Anda tidak ingin meletakkan proyek di sana), navigasikan ke folder pengguna Anda ( `C:\users\{your username}\`) sebelum Anda mulai membuat proyek baru.
 
 
@@ -155,51 +186,88 @@ Jika Clang tidak terinstal, masukkan perintah berikut untuk menginstal alat peng
 ```
 xcode-select --instal
 ```
-
-
 ## Membuat Aplikasi Hello World
 Untuk memastikan compiler terinstal dan dikonfigurasi dengan benar, mari buat program C++ Hello World.
 
+
 #### Membuat file C++
 
-1.  Pada Windows, luncurkan prompt perintah Windows (Ketik **prompt perintah Windows** di bilah pencarian Windows). Pada macOS dan Linux, Anda dapat memasukkan perintah ini di terminal.
-2.  Jalankan perintah berikut. Perintah tersebut akan membuat folder kosong bernama `projects`tempat Anda dapat meletakkan semua proyek VS Code Anda. Perintah berikutnya akan membuat dan mengarahkan Anda ke subfolder bernama `helloworld`. Dari sana, Anda akan membuka `helloworld`langsung di VS Code menggunakan `code`perintah tersebut.
+1. Pada Windows, luncurkan prompt perintah Windows (Ketik **prompt perintah Windows** di bilah pencarian Windows). Pada macOS dan Linux, Anda dapat memasukkan perintah ini di terminal.
+
+2. Jalankan perintah berikut. Perintah tersebut akan membuat folder kosong bernama `projects`tempat Anda dapat meletakkan semua proyek VS Code Anda. Perintah berikutnya akan membuat dan mengarahkan Anda ke subfolder bernama `helloworld`. Dari sana, Anda akan membuka `helloworld`langsung di VS Code menggunakan `code`perintah tersebut.
+
+  
 
 ```
+
 mkdir projects
+
 cd projects
+
 mkdir helloworld
+
 cd helloworld
+
 code .
+
 ```
+
 Sekarang buat file baru `helloworld.cpp`dengan nama tombol **File Baru** di File Explorer atau perintah **File** > **File Baru** .
+
 ![enter image description here](https://code.visualstudio.com/assets/docs/languages/cpp/new-file.png)
+
+  
 
 #### Tambahkan kode Hello World
 
+  
+
 Tempelkan kode berikut:
 
+  
+
 ```
+
 #include <iostream>
 
+  
+
 int main()
+
 {
-    std::cout << "Hello World" << std::endl;
+
+std::cout << "Hello World" << std::endl;
+
 }
 
+  
+
 ```
+
+  
 
 Sekarang tekan Ctrl+S untuk menyimpan berkas. Anda juga dapat mengaktifkan SimpanOtomatis untuk menyimpan perubahan berkas secara otomatis, dengan mencentang **SimpanOtomatis** di menu utama **Berkas** .
 
+  
+
 #### Jalankan helloworld.cpp
 
-1.  Pastikan Anda telah `helloworld.cpp`membukanya sehingga menjadi file aktif di editor Anda.
-    
-2.  Tekan tombol putar di sudut kanan atas editor.
+  
+
+1. Pastikan Anda telah `helloworld.cpp`membukanya sehingga menjadi file aktif di editor Anda.
+
+2. Tekan tombol putar di sudut kanan atas editor.
+
 ![enter image description here](https://code.visualstudio.com/assets/docs/languages/cpp/run-play-button.png)
+
 3. Pilih **C/C++: g++.exe build and debug file aktif** dari daftar kompiler yang terdeteksi pada sistem Anda.
+
 ![enter image description here](https://code.visualstudio.com/assets/docs/languages/cpp/select-gcc-compiler.png)
+
 Anda hanya diminta untuk memilih compiler saat pertama kali menjalankan `helloworld.cpp`. Compiler ini menjadi compiler "default" yang ditetapkan dalam `tasks.json`berkas Anda.
+
 4. Setelah pembangunan berhasil, Anda akan melihat "Hello World" muncul di **Terminal** terintegrasi .
+
 ![enter image description here](https://code.visualstudio.com/assets/docs/languages/cpp/helloworld-terminal-output.png)
+
 Selamat! Anda baru saja menjalankan program C++ pertama Anda di VS Code!

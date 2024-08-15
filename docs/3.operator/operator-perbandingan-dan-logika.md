@@ -209,7 +209,8 @@ LATIHAN
 -   Implementasikan operator logika dalam program kontrol aliran.
     
 
-SOAL
+
+**SOAL**
 
 Buatlah program kalkulator sederhana yang meminta dua bilangan dari pengguna dan kemudian menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian.
 
@@ -267,7 +268,8 @@ return 0;
 ```
 
 
-### SOAL
+
+**SOAL**
 
 Program kalkulator menggunakan switch case
 
@@ -372,9 +374,7 @@ getch();
 ```
 
 
-### SOAL
-
-  
+**SOAL**
 
 Ai akan membuat sebuah program yang dapat membandingkan berat dari buah-
 

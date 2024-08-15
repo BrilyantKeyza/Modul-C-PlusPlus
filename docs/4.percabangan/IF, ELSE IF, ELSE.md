@@ -64,7 +64,8 @@ LATIHAN PRAKTEK
 -   Buat program penilaian sederhana dengan menggunakan percabangan if-else.
     
 
-### SOAL
+
+**SOAL**
 
 Buatlah program sederhana yang meminta pengguna memasukkan angka dan menampilkan apakah angka tersebut positif, negatif, atau nol.
 
@@ -116,7 +117,8 @@ return 0;
 ```
 
 
-### SOAL
+
+**SOAL**
 
 Buatlah program sederhana menggunakan percabangan untuk menghitung hasil dari operasi aritmatika berdasarkan pilihan pengguna. Program ini harus dapat menangani penjumlahan, pengurangan, perkalian, dan pembagian.
 
@@ -201,7 +203,8 @@ return 0;
 ```
 
 
-### SOAL
+
+**SOAL**
 
 Buatlah sebuah program sederhana untuk melakukan pengecekan nilai dengan
 

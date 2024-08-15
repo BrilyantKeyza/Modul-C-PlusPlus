@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Soal 1 Proyek Akhir Sistem Pengelolaan Inventaris
 
-### Tugas:
+#### Tugas:
 
 Buatlah sistem pengelolaan inventaris menggunakan pemrograman C++. Sistem ini harus dapat melakukan fungsi-fungsi berikut:
 
@@ -41,9 +41,9 @@ Data inventaris yang harus dikelola:
 -   Fitur Searching menggunakan algoritma binary search
 
 
-Soal 2 Proyek Akhir Program Pengelolaan Data karyawan dan Gaji
 
-### Tugas:
+Soal 2 Proyek Akhir Program Pengelolaan Data karyawan dan Gaji
+#### Tugas:
 
 Buatlah sebuah program pengelolaan data karyawan dan gaji menggunakan bahasa pemrograman C++. Program ini dirancang untuk mengelola informasi karyawan dalam suatu perusahaan dan mengatur gaji berdasarkan posisi (jabatan) karyawan. Program ini harus dapat melakukan fungsi-fungsi berikut:
 

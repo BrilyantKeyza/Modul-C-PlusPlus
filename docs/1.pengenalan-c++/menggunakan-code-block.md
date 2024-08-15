@@ -88,6 +88,6 @@ Latihan Praktek
 -   Modifikasi program untuk mencetak pesan lain
     
 
-### SOAL
+**SOAL**
 
 Buatlah program untuk mencetak informasi biodata diri

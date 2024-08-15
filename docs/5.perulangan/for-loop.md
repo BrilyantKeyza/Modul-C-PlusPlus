@@ -12,7 +12,8 @@ sidebar_position: 1
 
 Perulangan dalam C++ adalah cara untuk melakukan tugas yang sama berulang kali dengan mudah. Ada tiga jenis perulangan yang bisa kita gunakan: "while", "do-while", dan "for". Perulangan "while" akan terus menjalankan tugas selama kondisi tertentu terpenuhi. Perulangan "do-while" mirip dengan "while", tapi tugas akan dijalankan setidaknya sekali sebelum memeriksa kondisi. Perulangan "for" lebih kompak, di mana kita bisa menentukan kondisi, inisialisasi, dan cara pengulangan dalam satu baris. Perulangan sangat membantu dalam membuat program yang melakukan hal-hal seperti menghitung total, mencetak pola, atau mengolah data. Pastikan untuk menggunakan perulangan dengan bijak agar tidak membingungkan program kita!
 
-### SOAL
+
+**SOAL**
 
   
 

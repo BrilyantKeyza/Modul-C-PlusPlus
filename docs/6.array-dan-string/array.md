@@ -26,7 +26,8 @@ LATIHAN PRAKTEK
 
   
 
-### SOAL
+
+**SOAL**
 
 Buatlah program yang mengambil 5 nilai integer dari pengguna, menyimpannya dalam array, dan kemudian menampilkan nilai maksimum dari array tersebut.
 ```
@@ -84,7 +85,8 @@ return 0;
 ```
 
 
-### SOAL
+
+**SOAL**
 
   
 
@@ -116,7 +118,8 @@ return 0;
 ```
 
 
-### SOAL
+
+**SOAL**
 
   
 
@@ -152,7 +155,8 @@ getch();
 ```
 
 
-### SOAL
+
+**SOAL**
 
 Studi Kasus sebuah nilai Contoh Program Tentang Array di C++
 

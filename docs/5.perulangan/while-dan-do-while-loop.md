@@ -73,7 +73,8 @@ LATIHAN PRAKTEK
 -   Implementasikan perulangan untuk membuat pola bintang sederhana.
     
 
-### SOAL
+
+**SOAL**
 
 Buatlah program yang meminta pengguna memasukkan bilangan bulat positif N, lalu tampilkan semua bilangan ganjil dari 1 hingga N.
 
@@ -113,7 +114,8 @@ return 0;
 ```
 
 
-### SOAL
+
+**SOAL**
 
   
 
