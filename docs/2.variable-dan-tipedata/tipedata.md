@@ -74,6 +74,8 @@ CONTOH PENGGUNAAN VARIABEL DAN TIPE DATA
 ```
 #include <iostream>
 
+using namespace std;
+
   
 
 int main() {
@@ -106,15 +108,15 @@ bool isSunny = true;
 
 // Menampilkan nilai variabel
 
-std::cout << "Umur: " << umur << std::endl;
+cout << "Umur: " << umur << endl;
 
-std::cout << "Nilai Float: " << nilaiFloat << std::endl;
+cout << "Nilai Float: " << nilaiFloat << endl;
 
-std::cout << "Tinggi: " << tinggi << std::endl;
+cout << "Tinggi: " << tinggi << endl;
 
-std::cout << "Jenis Kelamin: " << jenisKelamin << std::endl;
+cout << "Jenis Kelamin: " << jenisKelamin << endl;
 
-std::cout << "Cuaca Cerah? " << std::boolalpha << isSunny << std::endl;
+cout << "Cuaca Cerah? " << boolalpha << isSunny << endl;
 
   
 
